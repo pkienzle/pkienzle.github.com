@@ -1,1 +1,1 @@
-Personal web space describing public projects
+A portfolio of my projects on github and elsewhere
