@@ -4,24 +4,33 @@
 </header>
 <body>
 <p>
-Since GitHub does not link to organizations by default, I threw together this 
-pageas an alternative.  Styling is not my thing. If pressed, I can borrow 
-enough web foo to make something that looks okay, such as the 
-<a href="http://nexusformat.org">NeXus launch page</a>, but don't expect it 
-for this site.
+Public project portfolio for Paul Kienzle
 </p>
 
 <h2>Projects</h2>
 <dl>
-<dt><a href="https://github.com/reflectometry">Reflectometry</a></dt>
-<dd>Most of my work over the past decade has been in reflectometry
+<dt><a href="https://github.com/sasview">SasView<a/></dt>
+<dd>Over the past two years I have been active in the SasView project,
+primarily creating a plugin architecture for small angle scattering
+models written in C to be run on OpenCL enabled computers.  We are trying
+to maximize performance on commodity hardware while preserving accuracy.
+In addition to tuning the code, this sometimes requires numerical analysis
+to improve the accuracy, allowing the models to be computed with single
+precision floating point values.  Supporting a very broad range of graphics
+cards requires automated testing as well careful programming
+to work around the idiosyncracies in the compilers and libraries
+provided by the different hardware vendors.
+</dd>
+
+<dt><a href="https://github.com/reflectometry/refl1d">Reflectometry</a></dt>
+<dd>Much of my work at NIST has been in reflectometry
 analysis, which allows users to reconstruct the depth profile of a sample
 from the measured reflection.  These projects are hosted on
 <a href="http://reflectometry.org/danse/software.html">reflectometry.org</a>
 but developed on GitHub.
 </dd>
 
-<dt><a href="https://github.com/bumps">Bumps</a></dt>
+<dt><a href="https://github.com/bumps/bumps">Bumps</a></dt>
 <dd>For uncertainty analysis in modeling and inverse problems, Bayesian analysis
 using Markov Chain Monte Carlo is an effective black box procedure.  Define
 your cost function as a probability distribution and MCMC can pull a sample
@@ -33,15 +42,15 @@ triple axis spectometry.  We plan to make this an independent package during
 the summer of 2012, with easy installation from pypi.
 </dd>
 
-<dt><a href="https://github.com/scattering/dataflow">Dataflow</a></dt>
+<dt><a href="https://github.com/reflectometry/reduction">Dataflow</a></dt>
 <dd>For some many kinds of science the raw data needs to be transformed
 through multiple steps and combined with other information to bring it
-to a state where it can be modelled.  We are developing a package which
+to a state where it can be modelled.  We developed a package which
 allows us to do this on the web.  We are using a visual programming model
 which allows us to wire together the transformations.  My contributions to 
-this so far have been to the backend infrastructure, and helping summer 
-students produce the front end.  Dataflow is live at 
-<a href="http://drneutron.org/">drneutron.org</a>.
+this has primarily been to the backend infrastructure.
+students produce the front end.  Dataflow is live at
+<a href="http://h3.umd.edu/reflweb">ReflWeb</a>.  A manuscript is in preparation.
 </dd>
 
 <dt><a href="https://github.com/pkienzle/periodictable">Periodic table</a></dt>
@@ -71,9 +80,7 @@ My github <a href="http://github.com/pkienzle/pkienzle.github.com">personal webp
 
 <h2>Publications</h2>
 <p>
-Recent publications are listed on the
-<a href="http://reflectometry.org/danse/publications.html">DANSE publications</a>
-page.
+Publications are listed on <a href="https://scholar.google.com/citations?user=IWD0kUQAAAAJ">google scholar</a>
 </p>
 </body>
 </html>
